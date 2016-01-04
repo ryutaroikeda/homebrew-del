@@ -1,14 +1,14 @@
 class Del < Formula
-	desc "Trash utility"
-	homepage "https://github.com/ryutaroikeda/del"
-	url "https://github.com/ryutaroikeda/homebrew-del/del20160104.tar.gz"
+  desc "Trash utility"
+  homepage "https://github.com/ryutaroikeda/del"
+  url "https://github.com/ryutaroikeda/homebrew-del/del20160104.tar.gz"
 
-	def install
-		system "make"
-		system "make", "install"
-	end
+  def install
+    system "make"
+    system "make", "install"
+  end
 
-	test do
-		system "make", "test"
-	end
+  test do
+    system "make", "test"
+  end
 end
