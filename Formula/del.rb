@@ -1,7 +1,7 @@
 class Del < Formula
 	desc "Trash utility"
 	homepage "https://github.com/ryutaroikeda/del"
-	url "https://github.com/ryutaroikeda/homebrew-del/del.tar.gz"
+	url "https://github.com/ryutaroikeda/homebrew-del/del20160104.tar.gz"
 
 	def install
 		system "make"
