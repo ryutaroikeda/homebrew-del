@@ -6,4 +6,4 @@ install:
 - brew tap ryutaroikeda/homebrew-del
 - brew install del
 script:
-- brew test
+- brew test del
