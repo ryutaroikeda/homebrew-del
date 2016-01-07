@@ -3,7 +3,7 @@ class Del < Formula
   homepage "https://github.com/ryutaroikeda/del"
   url "https://raw.github.com/ryutaroikeda/homebrew-del/master/"\
 "del20160107.tar.gz"
-  sha256 "c61aaeb8bc355af2858c94e2d0418f285ee8c5ffe32e75da904b7d682354f58e"
+  sha256 "54d714b8e13c1be409462ae40bad92e9454fdade33b860fb98fa95ef877ceed9"
   version "0.1"
 
   def install
