@@ -1,0 +1,9 @@
+# Set language to objective-c to get osx image
+language: objective-c
+before_install:
+- brew update
+install:
+- brew tap ryutaroikeda/homebrew-del
+- brew install del
+script:
+- brew test
