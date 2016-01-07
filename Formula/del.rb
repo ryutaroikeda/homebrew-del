@@ -12,6 +12,7 @@ class Del < Formula
   end
 
   test do
-    system "make", "test"
+    touch junk
+    system "del", "junk"
   end
 end
