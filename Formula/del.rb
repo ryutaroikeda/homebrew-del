@@ -12,7 +12,7 @@ class Del < Formula
   end
 
   test do
-    touch junk
+    system "touch", "junk"
     system "del", "junk"
   end
 end
